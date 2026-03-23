@@ -1,0 +1,15 @@
+ACT6-C2. Exposición y Consumo de APIs de Terceros
+
+Este repositorio es la infraestructura de la practica de Consumo de APIs de Terceros el cual se encarga de levantar el proyecto con Docker compose.
+
+Para que este proyecto pueda arrancar a la perfeccion tienen que contar con lo siguiente 
+
+1-clonar el repositorio del forntend y crear un archivo .env en la rais del fornt para colocar las variables de la API 
+se pueden guiar de el archivo .env.example del front para colocar las variables 
+2-tener instalado correctamente Docker Desktop
+
+Una ves con los preparativos listos ya pueden levantar el proyecto colocando en el bash:
+
+"docker compose up -d"
+
+Listo ya puedes visualizar el proyecto en el localhost:3000
